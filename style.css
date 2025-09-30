@@ -1,0 +1,127 @@
+/* General Styling */
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #6dd5ed, #2193b0);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #333;
+}
+
+.container {
+  background: #fff;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+  width: 350px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #2193b0;
+}
+
+/* Input Section */
+.input-section {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+#habitInput {
+  padding: 10px;
+  border: 2px solid #2193b0;
+  border-radius: 8px;
+  width: 70%;
+}
+
+#addHabitBtn {
+  padding: 10px 15px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 8px;
+  background: #2193b0;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#addHabitBtn:hover {
+  background: #17627a;
+}
+
+/* Habit List */
+#habitList {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px;
+}
+
+#habitList li {
+  background: #f0f9ff;
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.3s;
+}
+
+#habitList li.completed {
+  text-decoration: line-through;
+  background: #c3f7d1;
+}
+
+.completeBtn {
+  border: none;
+  background: #4caf50;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.completeBtn:hover {
+  background: #388e3c;
+}
+
+/* Progress Bar */
+.progress-section {
+  margin: 20px 0;
+}
+
+.progress-bar {
+  background: #ddd;
+  border-radius: 10px;
+  height: 20px;
+  width: 100%;
+  overflow: hidden;
+}
+
+#progress {
+  background: #2193b0;
+  height: 100%;
+  width: 0%;
+  transition: width 0.4s ease;
+}
+
+#progressText {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* Quote Box */
+#quoteBox {
+  margin-top: 15px;
+  font-style: italic;
+  color: #444;
+  background: #f9f9f9;
+  padding: 10px;
+  border-left: 5px solid #2193b0;
+  border-radius: 6px;
+}
