@@ -14,12 +14,12 @@ Mark as complete (with strikethrough & ✅).
 Track percentage completion dynamically.
 Show random motivational quotes.
 
-4-Add new habits dynamically
+4-Add new habits dynamically.
 
-5-Mark habits as complete
+5-Mark habits as complete.
 
-6-Progress bar updates automatically
+6-Progress bar updates automatically.
 
-7-Random motivational quote appears when a task is completed
+7-Random motivational quote appears when a task is completed.
 
-8-Responsive and colorful design
+8-Responsive and colorful design.
