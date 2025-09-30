@@ -19,5 +19,7 @@ Show random motivational quotes.
 
 🛠️ Technologies Used:
 HTML5 → Structure of the app.
+
 CSS → Styling, layout, and animations.
+
 JavaScript (ES6) → Logic for tracking habits and updating progress.
