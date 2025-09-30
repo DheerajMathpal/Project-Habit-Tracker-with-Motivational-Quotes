@@ -3,6 +3,7 @@ This is a simple web app to help users track daily habits and stay motivated. Us
 Add daily habits (e.g., “Drink water”, “Read 10 pages”).
 
 #Features:-
+
 1-HTML – Structured layout with habit input, list, and progress bar.
 
 2-CSS – Clean, colorful UI with hover effects, spacing, and animations.
